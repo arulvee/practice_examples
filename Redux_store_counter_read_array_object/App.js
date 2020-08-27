@@ -14,7 +14,7 @@ const decrement = () => {
 //No Hooks
 /*const getValues = () => {
   store.dispatch({type:GET_VALUES});
-  console.log(...store.getState());
+  console.log(store.getState());
 }*/
 //With Hooks
 export default function App() {
