@@ -20,7 +20,7 @@ const decrement = () => {
 export default function App() {
   useEffect (() => {
   store.dispatch({type:GET_VALUES});
-  console.log(...store.getState());
+  console.log(store.getState());
 },[])
 
   return (
